@@ -1,0 +1,407 @@
+
+
+/* Index Page CSS */
+
+h1{
+    font-size: 50px;
+    color:white;
+    padding: 20px 20px 20px 20px;
+    display: inline;
+    top: 0;
+}
+
+h1:hover{
+    color: palevioletred;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Top{
+    background-color:peachpuff;
+    border: 3px solid black;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.para{
+    word-spacing: 2px;
+    font-size:20px;
+}
+
+.main{
+    text-align: center;
+}
+.card{
+    border: 2px solid black;
+    display:block;
+    padding: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+    
+}
+
+.card img {
+    width: 150px;
+    height: 120px;
+    margin-top: 30px;
+}
+.card img:hover{
+    width: 170px;
+    height: 140px;
+}
+
+.centre{
+    text-align: center;
+    background-color: peachpuff;
+}
+
+.get{
+    border: 3px solid black ;
+    text-align: center;
+    display: inline;
+    margin-left: 600px;
+    padding: 3px 3px 3px 3px;
+}
+
+.get a{
+    color:white;
+    text-decoration: none;
+    background-color:black;
+    padding: 3px 7px 3px 7px;
+}
+
+.get a:hover{
+    padding: 7px 10px 7px 10px;
+    color: palevioletred;
+    background-color: black;
+}
+
+
+.foot{
+    background-color: black;
+    color:white;
+    padding: 30px 0 20px 30px;
+    text-align: center;
+}
+body{
+    background-color:palegoldenrod;
+}
+
+.head{
+    position:-webkit-sticky;
+    position: sticky;
+    background-color: black;
+    border: 10px solid black;
+    top: 0;
+    padding-bottom: 10px;
+}
+
+.uls{
+    display: inline;
+    padding-left: 400px;
+    word-spacing: 40px;
+   
+}
+.uls a{
+    background-color: white;
+    border: 3px soild rgb(233, 62, 90);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.last{
+    padding-left: 400px;
+    padding-right: 400px;
+    word-spacing: 40px;
+}
+.lastline{
+    text-align: center;
+    color: white;
+    border: 1px soild pink;
+}
+
+.tfoot{
+    background-color: black;
+    color: white;
+    border: 20px solid black;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+}
+
+
+ul a:hover{
+    color: palevioletred;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+.last a {
+    color:white;
+}
+
+.last a:hover{
+    color: palevioletred;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    
+}
+.contact li{
+    list-style:circle;
+}
+.contact a:hover{
+    color: palevioletred;
+    background-color: black;
+    padding: 1px 2px 1px 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    word-spacing: 10px;
+}
+
+.fimg{
+    height: 20px;
+    width: 20px;
+}
+
+/* Contact Page CSS  */
+
+.about{
+    background-color: black;
+    border:10px solid black;
+    position: sticky;
+}
+
+.about h1{
+    font-size: 60px;
+}
+.about ul a{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px soild rgb(243, 86, 112) ;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about ul a:hover{
+    color: palevioletred;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.ula{
+    display: inline;
+    padding-left: 550px;
+    word-spacing: 40px;
+   
+}
+
+#form{
+    margin-top: 80px;
+   margin-left: 400px;
+   margin-right: 400px;
+   background-color:peachpuff;
+   border: 2px solid black;
+}
+
+#name{
+   margin-left: 100px;
+   margin-top: 30px;
+   width: 270px;
+}
+
+#name:hover{
+    padding: 5px 10px 5px 10px;
+}
+.conpara{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#email{
+    margin-left: 40px;
+    width:270px;
+}
+#email:hover{
+    padding: 5px 10px 5px 10px;
+}
+  
+#message{
+    margin-left: 160px;
+    width: 280px;
+    height: 100px;
+}
+
+#message:hover{
+    padding: 5px 10px 5px 10px;
+}
+
+#submit{
+    margin-left: 250px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+#submit:hover{
+    padding: 5px 10px 5px 10px;
+    border: 2px solid palevioletred;
+    font-size: 20px;
+}
+
+#legend{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+/* Blogs Page CSS */
+
+
+.paragraph{
+    font-size: 20px;
+}
+
+
+.links {
+    text-align: center;
+    
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    background-color: black;
+    color:palevioletred;
+    padding: 3px 5px 3px 5px;
+    border:2px solid palevioletred;
+    border-radius: 10px;
+}
+.Blog{
+    font-size: 50px;
+}
+.ulb{
+    display: inline;
+    padding-left: 650px;
+    word-spacing: 40px;
+
+}
+.ulb a{
+    margin-left: 10px;
+    border: 3px soild rgb(243, 86, 112) ;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Project page CSS */
+
+.pro{
+    font-size: 50px;
+}
+
+.ulp{
+    display: inline;
+    padding-left: 600px;
+    word-spacing: 40px;
+
+}
+.ulp a{
+    margin-left: 10px;
+    border: 3px soild rgb(243, 86, 112) ;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project{
+    font-size: 17px;
+}
+
+
+.project h1{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+.box{
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    background-color: black;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+    word-spacing: 2px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.list li {
+    list-style: circle;
+}
+
+.conclusion{
+    background-color: papayawhip;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    margin: 50px 300px 50px 300px;
+    font-size: 20px;
+}
+.sub{
+    padding: 3px 5px 5px 3px;
+    font-size: 15px;
+}
+.sub:hover{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+}
+
+.bold{
+    font-size: 50px;
+}
