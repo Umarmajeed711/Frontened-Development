@@ -54,6 +54,7 @@ h2{
 .card img:hover{
     width: 170px;
     height: 140px;
+    border:2px solid white;
 }
 
 .centre{
@@ -62,11 +63,11 @@ h2{
 }
 
 .get{
-    border: 3px solid black ;
+    /* border: 3px solid black ; */
     text-align: center;
     display: inline;
     margin-left: 600px;
-    padding: 3px 3px 3px 3px;
+    padding: 3px 5px 3px 5px;
 }
 
 .get a{
@@ -80,6 +81,7 @@ h2{
     padding: 7px 10px 7px 10px;
     color: palevioletred;
     background-color: black;
+    border: 2px solid white;
 }
 
 
@@ -181,6 +183,15 @@ ul a:hover{
 .fimg{
     height: 20px;
     width: 20px;
+}
+
+#logo{
+    margin-left: 1000px;
+    background: transparent;
+    width: 200px;
+    height: 150px;
+    display: inline;
+    margin-top: 20px;
 }
 
 /* Contact Page CSS  */
